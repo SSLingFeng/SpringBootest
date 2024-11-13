@@ -6,7 +6,7 @@ spring:
     # MYSQL数据库驱动
     driver-class-name: com.mysql.cj.jdbc.Driver
     # 数据库地址
-    url: jdbc:mysql://192.168.31.10:3306/czw?useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true&createDatabaseIfNotExist=true
+    url: jdbc:mysql://192.168.31.10:3306/czw?useUnicode=true&characterEncoding=utf8&useSSL=false&autoReconnect=true&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
     # 数据库用户名
     username: root
     # 数据库密码
